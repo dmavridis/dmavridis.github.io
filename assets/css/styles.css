@@ -1,0 +1,108 @@
+.navbar-default {
+  background-color:#e0b08c;
+  border-color:#76323f;
+}
+
+#portfolio #ai p {
+  color:#76323f;
+}
+
+#portfolio #car p {
+  color:white;
+}
+
+#ai .col-md-3 div {
+  background-color:#c09f80;
+}
+
+#car .col-md-3 div {
+  background-color:#565656;
+}
+
+body {
+  background-color:#d7cec7;
+  border-radius:5px;
+}
+
+#ai {
+  background-color:#d5c7d5;
+}
+
+#ai h3 {
+  color:#76323f;
+}
+
+#ai h2 {
+  color:#76323f;
+}
+
+#ai .description {
+  color:#76323f;
+}
+
+#ai .text-center {
+  color:#76323f;
+}
+
+#car h3, .h3 {
+  color:white;
+}
+
+#car {
+  background-color:#c09f80;
+}
+
+#footer p {
+  color:rgb(110,50,63);
+}
+
+#footer {
+  background-color:rgb(224,176,140);
+}
+
+#footer .footer-contacts-icon {
+  background-color:rgb(110,50,63);
+}
+
+.social-links.social-icons a {
+  background-color:rgb(110,50,63);
+}
+
+box {
+  background-color:rgb(224,176,140);
+}
+
+.navbar {
+  color:rgb(110,50,63);
+}
+
+.projects-clean .item {
+  padding-top:20px;
+  min-height:300px;
+}
+
+#info h3 {
+  color:rgb(110,50,63);
+}
+
+#info p {
+  color:rgb(110,50,63);
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color:#6e323f;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  color:#6e323f;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:#6e323f;
+}
+
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover {
+  border:1px solid #6e323f;
+  color:#6e323f;
+}
+

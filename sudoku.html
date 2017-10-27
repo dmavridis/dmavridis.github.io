@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made with Remarkable!</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Article-Cards.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
+</head>
+
+<body>
+    <h1 id="artificial-intelligence-nanodegree">
+   Artificial Intelligence Nanodegree
+  </h1>
+  <h2 id="introductory-project-diagonal-sudoku-solver">
+   Introductory Project: Diagonal Sudoku Solver
+  </h2>
+  <h1 id="question-1-naked-twins">
+   Question 1 (Naked Twins)
+  </h1>
+  <p>
+   Q: How do we use constraint propagation to solve the naked twins problem?
+   <br>
+   A: When a naked twins pair is detected then it means that the two values of the squares will fill those two squares only. We just don’t now the order. However, if those values are probable to any of the common peers of the naked pair, they can be eliminated from there.
+  </p>
+  <h1 id="question-2-diagonal-sudoku">
+   Question 2 (Diagonal Sudoku)
+  </h1>
+  <p>
+   Q: How do we use constraint propagation to solve the diagonal sudoku problem?
+   <br>
+   A: The diagonal Sudoku has an extra constraint, where the boxes that belong to the two main diagonals have extra peers which are the remaining boxes of the diagonal they belong. For example the box A1 has as peers, row A, the column 1, the box defined by A1 and C3 and also the diagonal A1, B2, … I9.
+  </p>
+  <h3 id="install">
+   Install
+  </h3>
+  <p>
+   This project requires
+   <strong>
+    Python 3
+   </strong>
+   .
+  </p>
+  <p>
+   We recommend students install
+   <a href="https://www.continuum.io/downloads">
+    Anaconda
+   </a>
+   , a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
+   <br>
+   Please try using the environment we provided in the Anaconda lesson of the Nanodegree.
+  </p>
+  <h5 id="optional-pygame">
+   Optional: Pygame
+  </h5>
+  <p>
+   Optionally, you can also install pygame if you want to see your visualization. If you’ve followed our instructions for setting up our conda environment, you should be all set.
+  </p>
+  <p>
+   If not, please see how to download pygame
+   <a href="http://www.pygame.org/download.shtml">
+    here
+   </a>
+   .
+  </p>
+  <h3 id="code">
+   Code
+  </h3>
+  <ul>
+   <li>
+    <code>
+     solutions.py
+    </code>
+    - You’ll fill this in as part of your solution.
+   </li>
+   <li>
+    <code>
+     solution_test.py
+    </code>
+    - Do not modify this. You can test your solution by running
+    <code>
+     python solution_test.py
+    </code>
+    .
+   </li>
+   <li>
+    <code>
+     PySudoku.py
+    </code>
+    - Do not modify this. This is code for visualizing your solution.
+   </li>
+   <li>
+    <code>
+     visualize.py
+    </code>
+    - Do not modify this. This is code for visualizing your solution.
+   </li>
+  </ul>
+  <h3 id="visualizing">
+   Visualizing
+  </h3>
+  <p>
+   To visualize your solution, please only assign values to the values_dict using the
+   <code>
+    assign_values
+   </code>
+   function provided in function.py
+  </p>
+  <h3 id="data">
+   Data
+  </h3>
+  <p>
+   The data consists of a text file of diagonal sudokus for you to solve.
+  </p>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js">
+  </script>
+  <script>
+   hljs.initHighlightingOnLoad();
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   MathJax.Hub.Config({"showProcessingMessages" : false,"messageStyle" : "none","tex2jax": { inlineMath: [ [ "$", "$" ] ] }});
+  </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+</body>
+
+</html>
