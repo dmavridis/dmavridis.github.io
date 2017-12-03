@@ -3,12 +3,12 @@
   border-color:#76323f;
 }
 
-#portfolio #ai p {
+#ai p {
   color:#76323f;
 }
 
-#portfolio #car p {
-  color:white;
+#car p {
+  color:#76323f;
 }
 
 #ai .col-md-3 div {
@@ -32,7 +32,15 @@ body {
   color:#76323f;
 }
 
+#car h3 {
+  color:#76323f;
+}
+
 #ai h2 {
+  color:#76323f;
+}
+
+#car h2 {
   color:#76323f;
 }
 
@@ -44,12 +52,8 @@ body {
   color:#76323f;
 }
 
-#car h3, .h3 {
-  color:white;
-}
-
 #car {
-  background-color:#c09f80;
+  background-color:#dabfda;
 }
 
 #footer p {
@@ -74,6 +78,7 @@ box {
 
 .navbar {
   color:rgb(110,50,63);
+  background-color:#ffbe56;
 }
 
 .projects-clean .item {
@@ -103,6 +108,14 @@ box {
 
 .navbar-nav > .active > a, .navbar-nav > .active > a:hover {
   border:1px solid #6e323f;
+  color:#6e323f;
+}
+
+.h3, h3 {
+  font-size:1.25rem;
+}
+
+.expand_projects a {
   color:#6e323f;
 }
 

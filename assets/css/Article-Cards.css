@@ -127,3 +127,24 @@ figure.snip1253:hover img, figure.snip1253.hover img {
 h3, .h3 {
 }
 
+@media (min-width:1200px) {
+  #accordion-1 {
+    margin:auto;
+    max-width:800px;
+  }
+}
+
+@media (max-width:1199px) {
+  #accordion-1 {
+    margin:auto;
+    max-width:700px;
+  }
+}
+
+#ai-header {
+  background-image:url(../../assets/img/pawns.jpg);
+  background-size:cover;
+  background-clip:border-box;
+  background-position:center;
+}
+
